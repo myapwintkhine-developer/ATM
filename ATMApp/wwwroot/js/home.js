@@ -109,12 +109,18 @@ $('#btnSignin').click(function (e) {
             reqmodel: _reqmodel
         },
         success: function (response) {
-            sucessMsgNotiflixWithUrl(response,'/Home/Index');
+            sucessMsgNotiflix(response);
+            setTimeout(function () {
+                location.href = '/';
+            }, 2000);
             Clear("Signin");
             signinModal.hide();
         },
         error: function (request, status, error) {
             errorMsgNotiflix("Sign in fail!");
+            setTimeout(function () {
+                location.href = '/';
+            }, 2000);
             Clear("Signin");
             console.log({ request, status, error });
         }
@@ -129,7 +135,7 @@ $('#btnBalance').click(function (e) {
         url: '/Home/CheckBalance',
         type: 'POST',
         success: function (response) {
-            showInfoMessage(response, '/Home/Index');
+            showInfoMessage(response,'/');
         },
         error: function (request, status, error) {
             l.stop();

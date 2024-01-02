@@ -26,7 +26,7 @@ function successMsg(message) {
     });
 }
 
-function infoMessage(message) {
+function infoMessage(message,url) {
 
     Swal.fire({
         title: "Balance Check",
@@ -35,6 +35,10 @@ function infoMessage(message) {
         showDenyButton: false,
         showCancelButton: false,
         confirmButtonText: "Ok",
+    }).then((result) => {
+        if (result.isConfirmed && url != undefined) {
+            location.href = url;
+        }
     });
 }
 function confirmMessage(message) {
@@ -88,14 +92,12 @@ function showMsg(data) {
 
 function showInfoMessage(data,url){
     if (data.isSuccess) {
-        infoMessage(data.message);
+        infoMessage(data.message,url);
     }
     else {
         errorMessage(data.message);
     }
 
-    if (url != undefined)
-        location.href = url;
 }
 
 function validateMsg(message) {

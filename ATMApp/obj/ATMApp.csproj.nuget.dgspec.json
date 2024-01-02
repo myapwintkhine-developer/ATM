@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NETTest\\Class\\ATMApp\\ATMApp\\ATMApp.csproj": {}
+    "D:\\ASP.NETTest\\Class\\ATM\\ATMApp\\ATMApp.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NETTest\\Class\\ATMApp\\ATMApp\\ATMApp.csproj": {
+    "D:\\ASP.NETTest\\Class\\ATM\\ATMApp\\ATMApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NETTest\\Class\\ATMApp\\ATMApp\\ATMApp.csproj",
+        "projectUniqueName": "D:\\ASP.NETTest\\Class\\ATM\\ATMApp\\ATMApp.csproj",
         "projectName": "ATMApp",
-        "projectPath": "D:\\ASP.NETTest\\Class\\ATMApp\\ATMApp\\ATMApp.csproj",
+        "projectPath": "D:\\ASP.NETTest\\Class\\ATM\\ATMApp\\ATMApp.csproj",
         "packagesPath": "C:\\Users\\M Pwint\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NETTest\\Class\\ATMApp\\ATMApp\\obj\\",
+        "outputPath": "D:\\ASP.NETTest\\Class\\ATM\\ATMApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\M Pwint\\AppData\\Roaming\\NuGet\\NuGet.Config",

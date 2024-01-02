@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wyuDlPAzqLpkE8xRHQPbr8hdWcyEFofhciemAdE1fjZhdrCyHKqnzkx7jkRKi99bEikf8JLwz68eV1kAWue5lg==",
+  "dgSpecHash": "6mOzR10d5R44TSiDE5Uxo8ICsMDa9mdLzaiZwuUPKQj1DdKpkfSqWIqL378/YQdqlwrefG4obS75+jC9mtjOMg==",
   "success": true,
-  "projectFilePath": "D:\\ASP.NETTest\\Class\\ATMApp\\ATMApp\\ATMApp.csproj",
+  "projectFilePath": "D:\\ASP.NETTest\\Class\\ATM\\ATMApp\\ATMApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M Pwint\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\M Pwint\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

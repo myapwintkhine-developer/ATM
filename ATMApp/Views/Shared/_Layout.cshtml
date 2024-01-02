@@ -39,12 +39,15 @@
                         <li class="nav-item">
                             <a class="nav-link btn btn-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <button class="nav-link btn btn-link text-dark" onclick="showSigninModal()">Sign In</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link btn btn-link text-dark" onclick="showRegisterModal()">Register</button>
-                        </li>
+                        @if (Model.Name == null)
+                        {
+                            <li class="nav-item">
+                                <button class="nav-link btn btn-link text-dark" onclick="showSigninModal()">Sign In</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link btn btn-link text-dark" onclick="showRegisterModal()">Register</button>
+                            </li>
+                        }
                         @if (Model.Name != null)
                         {
 
